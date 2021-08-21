@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Formulario de registro-MI Web.</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+</head>
+<body>
+    <h1>Formulario de Registro</h1>
+
+    <form action="" method="GET">
+    <p><label>Nombre: <input type="text" name="Nombre" id="Nombre" maxlength="50"></label></p>
+    <p><label>Apellido: <input type="text" name="Apellido" id="Apellido" maxlength="50"></label></p>
+    <p><label>Sexo: <input type="radio" name="Sexo" id="Hombre" value="h">Hombre
+    <input type="radio" name="Sexo" id="Mujer" value="m">Mujer</label></p>
+    <p><label>Correo: <input type="email" name="Correo" id="Correo"></label></p>
+    <p>
+        <label>Poblacion: 
+        <select name="Poblacion" id="Poblacion">
+            <option>Alicate</option>
+            <option>Madrid</option>
+            <option>Sevilla</option>
+            <option>Valencia</option>
+        </select>
+        </label>
+    </p>
+    <p>
+        <label>Descripcion:
+        <textarea name="Descripcion" id="Descripcion" rows="6" cols="60"></textarea>
+        </label>
+    </p>
+    <p><input type="checkbox" name="info" id="info"checked="checked"><label>Desea recibir informacion sobre novedades y oertas</label></p>
+    <p><input type="checkbox" name="Condiciones" id="Condiciones"><label>Declaro haber leido u aceptado los terminos y condiciones</label></p> 
+    <input type="submit">
+</form>
+</body>
+</html>

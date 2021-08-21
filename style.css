@@ -1,0 +1,14 @@
+table,
+tr,
+th,
+td {
+  border: 1px solid black;
+}
+
+#primeraFila {
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+#filaEspaña {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
