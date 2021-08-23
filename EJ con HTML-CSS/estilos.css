@@ -19,9 +19,14 @@ h2 {
 span[class='Sustantivos'] {
   color: #00f;
   font-size: 20px;
-  font: bolder;
+  font-weight: bolder;
 }
 
+#textAcro {
+  color: #fff;
+  background-color: #000;
+  font: italic;
+}
 span {
   color: #060;
 }
