@@ -1,0 +1,49 @@
+table, tr, th, td{
+    border: 1px solid black;
+}
+
+#primero{
+    color: teal;
+
+}
+
+#segundo{
+    color:red;
+}
+
+#tercero{
+    color:blue;
+}
+
+#cuarto{
+    color:orange;
+}
+
+#quinto{
+    color:purple;
+}
+
+#sexto{
+    color:olive;
+}
+
+#septimo{
+    color:fuchsia;
+}
+
+#octavo{    
+    color: green;
+}
+
+td + td{
+    background-color: red;
+}
+
+td + td + td{
+    background-color: green;
+}
+
+td + td + td + td{
+    background-color: blue;
+}
+
