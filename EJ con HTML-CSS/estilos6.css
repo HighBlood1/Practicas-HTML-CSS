@@ -1,0 +1,23 @@
+ul{/*perimetros de la lista*/ 
+    list-style: none;
+    text-align: center;
+    width: 120px;
+    padding: 0;
+}
+
+li{
+    color: #fff;
+    background-color: #00f;
+    border: 2px solid #FFF;
+}
+
+li a{
+    color: #FFF;
+    text-decoration: none;
+    display: block;
+    width: 100%;
+}
+
+li a:hover, li a:focus{
+    outline: 2px solid #f00;
+}

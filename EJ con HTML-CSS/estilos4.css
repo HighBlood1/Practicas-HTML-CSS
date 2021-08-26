@@ -2,3 +2,28 @@ a{
     color: red;
     text-decoration: dashed;
 }
+
+a:visited{
+    color: #0a0;
+}
+
+a:hover{
+    color: #FFF;
+    background-color: #F00;
+    text-decoration: underline;
+}
+
+a:focus{
+    color: #00f;
+    text-decoration: underline;
+}
+
+a:active{
+    color: #f60;
+    background-color: #FFF;
+    text-decoration: none;
+}
+
+
+
+
